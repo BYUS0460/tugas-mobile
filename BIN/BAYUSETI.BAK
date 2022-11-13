@@ -1,0 +1,36 @@
+#include<conio.h>
+#include<stdio.h>
+#include<iostream.h>
+
+main()
+{
+cout<<"       WONDERFULL TOUR  "<<endl;
+cout<<"MELAYANI SEWA DAN PAKET WISATA "<<endl;
+cout<<"==============================="<<endl;
+cout<<endl;
+cout<<"MELAYANI  :"<<endl;
+cout<<"+SEWA PARIWISATA"<<endl;P
+cout<<"+TOUR JAWA - BALI"<<endl;
+cout<<"+TOUR ZIARAH WISATA"<<endl;
+cout<<"+ZIARAH WALI"<<endl;
+cout<<"+KUNJUNGAN INDUSTRY/PERUSAHAAN/KAMPUS"<<endl;
+cout<<"+STUDY TOUR"<<endl;
+cout<<"+DLL......."<<endl;
+cout<<endl;
+cout<<"  ARMADA     "<<endl;
+cout<<endl;
+cout<<" BUS BESAR "<<endl;
+cout<<" (ISI 45,50 & 64 SEAT)"<<endl;
+cout<<" BUS MEDIUM "<<endl;
+cout<<" (ISI 30 -37 SEAT)"<<endl;
+cout<<"Kepercayaan dan Kepuasan Anda Adalah Prioritas Bagi Kami"<<endl;
+cout<<"BURUAN SEBELUM KETINGGALAN..!!!!!!"<<endl;
+cout<<endl;
+cout<<"UNTUK PEMESANAN HUBUNGI :"<<endl;
+cout<<"                          24 Hours"<<endl;
+cout<<"Muh.haoryanto - 098822172927(Telp,SMS,WA,Line)"<<endl;
+cout<<"                Muh.haryanto@gmail.com        "<<endl;
+cout<<"JL.RIKU Kec.Kedalaman Kab.KONOHA              "<<endl;
+getch();
+return 0;
+}

@@ -1,0 +1,61 @@
+#include<iostream.h>
+#include<conio.h>
+
+main(){
+    float rupiah,yen,euro,yen,dollar,ringgit,pound
+    cout<<"============================================="<<endl;
+    cout<<"\tKonversi mta uang "endl<<;
+    cout<<"============================================="<<endl;
+    cout<<"1.Rupiah ke Dollar amerika"<<endl;
+    cout<<"2.Rupiah ke euro"<<endl;
+    cout<<"3.Rupiah ke pound inggris"<<endl;
+    cout<<"4.Rupiah ke yen jepang"<<endl;
+    cout<<"5.Rupiah ke ringgit malaysia"<<endl;
+    cout<<"============================================="<<endl;
+    cout<<endl;
+    cout<<"Input pilihan anda :";cin>>pilih;
+    cout<<endl;
+    cout<<"============================================="<<endl;
+
+    if(pilih==10)
+    {
+    cout<<"\n1. Rupiah ke dollar amerika"<<endl;
+    cout<<"------------------------------"<<endl;
+    cout<<"input nilai rupiah :";cin>>rupiah;
+    dollar =rupiah*0,00008
+    cout<<"nilai dollar amerika : "<<dollar<<endl;
+    }
+    else if(pilih==2)
+    {
+     cout<<"\n2 rupiah ke euro"<<endl;
+     cout<<"input nilai rupiah : ",cin>>rupiah;
+     euro = rupiah*0,00007;
+     cout<<"nilai euro : "<<euro<<endl;
+     }
+     else if(pilihan==3)
+     {
+	cout<<"\n3.Rupiah ke pound inggris"<<endl;
+	coout<<"input nilai rupiah :",cin>>rupiah;
+	pound =rupiah*0,00005;
+	cout<<"nilai pound inggris : "<<pound<<endl;
+	}
+    else if (pilihan==4)
+    {
+	  cout<<"\n4.rupiah ke yen jepang"<<endl;
+	  cout<<"input nilai rupiah :",cin>>rupiah;
+	  yen =rupiah*0,00876;
+	  cout<<" nilai yen :"<<yen<<endl;
+	  }
+    else if (pilihan==5)
+    {
+	  cout<<"\n5.rupiah ke ringgit malaysia"<<endl;
+	  cout<<"input nilai rupiah  :",cin>>rupiah;
+	  ringgit=rupiah*0,00032;
+	  cout<<"rinngit :"<<ringgit<<endl;}
+	  else{\nPilihan tidak tersedia";
+	  cout<<endl;
+	  }
+	  cout<<endl;
+	  cout<<"========================================"endl;
+	  cout<<endl;
+	  }
